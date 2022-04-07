@@ -17,6 +17,20 @@ body{
     font-weight: bold;
 }
 
+p{
+    font-size: 14px;
+}
+
+h2{
+    font-size: 23px; 
+    margin-bottom: 20px; 
+    font-weight: bold;
+}
+
+a.font-black{
+    color: black !important;
+}
+
 /***********************
 
 About sectionnn
@@ -63,4 +77,29 @@ About sectionnn
 #about .icons a{
     color: rgb(91, 85, 85);
 }
+
+/***********************
+
+Projects
+
+***********************/
+
+#project{
+    margin: 60px auto;
+    width: 80%;  
+}
+
+
+
+#project h2{
+    text-align: center;
+}
+
+#project .card img{
+width: 100%
+}
+
+#project .card-title{
+font-weight: bold;
+} 
 
